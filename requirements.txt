@@ -1,4 +1,4 @@
-fastapi
+fastapi~=0.95.1
 uvicorn
 
 #for template
@@ -8,14 +8,18 @@ jinja2
 aiofiles
 
 #for database
-sqlalchemy
+sqlalchemy~=2.0.13
 pymysql
 
 #for loading environment variables
-python-dotenv
+python-dotenv~=1.0.0
 
 #for email validation
-pydantic[email]
+pydantic[email]~=1.10.7
 
 #hashing
-passlib[bcrypt]
+passlib[bcrypt]~=1.7.4
+
+#for testing
+pytest
+requests
